@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/projectSettingsUpdater.xml
+/contentModel.xml
+/modules.xml
+/.idea.tetra_ul-racingrepository-09ab429d3ab0.iml
+# Datasource local storage ignored files
+/../../../../../../../../:\Users\Любовь\Desktop\tetra_ul-racingrepository-09ab429d3ab0\.idea\.idea.tetra_ul-racingrepository-09ab429d3ab0\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
