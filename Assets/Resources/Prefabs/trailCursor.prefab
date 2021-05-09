@@ -48,6 +48,7 @@ TrailRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -147,6 +148,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 2742073144435075506}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5b53bc0b6d8d104baae8644cb4cf7ee, type: 3}
+  m_Script: {fileID: 11500000, guid: d5354f1297ca5064ba688e02ca7135fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

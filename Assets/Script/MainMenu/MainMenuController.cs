@@ -1,6 +1,7 @@
 ﻿using Profile;
 using Tools;
 using UnityEngine;
+using Game.InputLogic;
 
 namespace Ui
 {
@@ -15,6 +16,11 @@ namespace Ui
             _profilePlayer = profilePlayer;
             _view = LoadView(placeForUi);
             _view.Init(StartGame);
+
+            SubscriptionProperty<float> leftMoveDiff = new SubscriptionProperty<float>();
+            SubscriptionProperty<float> rightMoveDiff = new SubscriptionProperty<float>();
+            InputTrailController inputTrailController = new InputTrailController(leftMoveDiff, rightMoveDiff, profilePlayer.CurrentCar);
+            AddController(inputTrailController);
         }
 
         private MainMenuView LoadView(Transform placeForUi)
